@@ -59,6 +59,7 @@
     background: url(../images/header__img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -74,6 +75,37 @@
     color: var(--white);
     text-align: justify;
     line-height:27px;
+}
+/* header end */
+
+.history{
+    background: var(--dark);
+    padding: 60px 0;
+    
+    
+}
+.history__title{
+    font-size: 28px;
+    color: var(--yellow);
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+}
+.history__title::before,.history__title::after{
+    content: '';
+    display: block;
+    height: 2px;
+    width: 50px;
+    background: var(--white);
+}
+.history__title::before{
+    margin-left: auto;
+
+}
+.history__desc{
+    color: var(--white); 
+    font-size: 18px;
+    text-align: justify;   
 }
 
 
