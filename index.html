@@ -4,27 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="stylesheet" href="css/bootsrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/medea.css">
+    
     <title>Моё портфолио</title>
 </head>
 <body>
-    
+    <header class="header">
+        <nav class="header__nav">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto"><a href="" class="logo"><span class="logo__letter-y">my</span>works</a></div>
+                    <div class="col-auto">
+                        <ul class="header__menu">
+                            <li><a href="" class="header__menu-link">история</a></li>
+                            <li><a href="" class="header__menu-link">роботы</a></li>
+                            <li>
+                                <div class="dropdown">
+                                    <a class="header__menu-link" href="#" role="button" id="header__drop-link"
+                                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Котакты</a>
+                                    
 
-
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="header__drop-link">
+                                        <a class="dropdown-item dropdown-item_bb-dark" href="tel:998901234567">+ 998 90 123 45 67</a>
+                                        <a class="dropdown-item" href="mailto:mymail@mail.my">mymail@mail.my</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content">
+            <div class="container">
+            <h1 class="header__title">моё портфолио</h1>
+            <p class="header__desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est l</p>
+       </div>
+     </div>
+    </header>
+     
+    <script src="js/jq.js"></script>
+    <script src="js/poper.js"></script>
+    <script src="js/bootstrap.js"></script>
 </body>
 </html>
 
 <!-- 
-    * git init - это инициализирует проект
-    * git config user.email - это ругистрирует пользавателя которых редактирует проект
-    * git config user.name - это ругистрирует пользавателя которых редактирует проект
-    * git config gui.encoding utf-8 - это адыкватное отображение кирилицы
-    * git add index.html или git add . добавить все элеиенты - это добавляет элементы в отслеживаемую зону
-    * git commit -m 'сообщение сохронение' - это сохроняет отслеживаемую зону
-    * gitk - открывает проводник репозитория
-    * git status - показывает отслеживаемую зону
-
+    *git-init -'это инициализирует проект'
+    *git config user.email -это регистрирует пользователя которых редактирует проект
+    *git config user.name -это регистрирует пользователя которых редактирует проект
+    *git add index.html или git add . добавить все элементы -это это добовляет элементы отслеживание зону
+    *git commit -m "сообшение сохранение" -это сохраняет отсдеживаемую зону 
+    *gitk - открывыает проводник репозитория
+    *git status -показывает отсдеживаемую зону
+     *ssh-keygen -создать безопасный ключ соеденение к репозиторию
  -->
