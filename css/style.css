@@ -107,5 +107,54 @@
     font-size: 18px;
     text-align: justify;   
 }
+.study{
+    background: var(--dark__light);
+    padding: 15px 0;
+}
+.study__slider-prev,.study__slider-next{
+    position: absolute;
+    height: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    color: var(--yellow);
+}
+.study__slider-prev:hover,
+.study__slider-next:hover{
+    color: var(--yellow);
+}
+.study__slider-prev{
+    left: 0;
+}
+.study__slider-next{
+    right: 0;
+}
+.study__slider-prev i::after,.study__slider-next i::after{
+    color: #a5a6a6;
+}
+.study__title{
+    color: var(--white);
+    font-size: 24px;
+    text-transform: uppercase;
+    font-style: var(--m);
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.study__title_color-yellow{
+    color: var(--yellow);
+}
+.study__desc{
+    color: var(--white);
+    font-size: 18px;
+    text-align: justify;
+}
+.study__image{
+    border-radius: 6px ;
+    max-height: 370px;
+    object-fit: cover ;
+    width: 100%;
+
+}
 
 
